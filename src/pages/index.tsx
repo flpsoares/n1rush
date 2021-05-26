@@ -1,7 +1,13 @@
+import { Container } from '../styles/style'
+
+import Header from '../components/Header'
+import Content from '../components/Content'
+
 export default function Home() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <Container>
+      <Header />
+      <Content />
+    </Container>
   )
 }
